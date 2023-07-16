@@ -14,9 +14,14 @@ function loadKeys() {
     });
 }
 function loadStock() {
+    let stock;
     console.log("loading stock");
-    var stock = require('./data/stock.json');
-    console.log(JSON.stringify(stock));
+    fetch('../data/stock.json')
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.log(error));
+    
+    //console.log(JSON.stringify(stock));
 }
 function showItems(stock) {
     console.log("Showing items");
@@ -36,3 +41,4 @@ function init() {
     loadStock();
     loadKeys();
 }
+init();
