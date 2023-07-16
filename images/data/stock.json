@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "name":"bomb",
+            "quantity":10,
+            "price":50
+        },
+        {
+            "name":"sword",
+            "quantity":20,
+            "price":200
+        },
+        {
+            "name":"shield",
+            "quantity":5,
+            "price":100
+        },
+        {
+            "name":"armor",
+            "quantity":7,
+            "price":500
+        },
+        {
+            "name":"arrows",
+            "quantity":50,
+            "price":10
+        }
+    ]
+}

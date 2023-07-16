@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+#container {
+    border:5px solid pink;
+    margin:0 auto;
+    width:1024;
+}
+#player {
+    margin:0 auto;
+    position:relative;
+    top:-200px;
+    left:450px;
+}

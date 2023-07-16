@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="768"
+   viewBox="0 0 1024 768"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="shop_IS.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="512.5"
+     inkscape:cy="383.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient3232"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#502d16;stop-opacity:1;"
+         offset="0"
+         id="stop3230" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3170"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#502d16;stop-opacity:1;"
+         offset="0"
+         id="stop3168" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="walls"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.33197"
+       id="rect1114"
+       width="1022"
+       height="766"
+       x="2"
+       y="2"
+       inkscape:label="outlineWallPath" />
+    <rect
+       style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.33197"
+       id="rect3368"
+       width="855"
+       height="628"
+       x="87"
+       y="67"
+       inkscape:label="innerWallPath" />
+    <path
+       style="display:inline;fill:#a05a2c;fill-opacity:1;stroke:#000000;stroke-width:2.33197"
+       d="M 4,385 V 3.5 h 509 509 V 385 766.5 H 513 4 Z m 940,-4 V 65.5 H 514.5 85 V 381 696.5 H 514.5 944 Z"
+       id="path3898"
+       inkscape:label="outerWallPath" />
+    <rect
+       style="display:inline;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:2.70083"
+       id="rect3959"
+       width="188.35222"
+       height="67.278008"
+       x="408.78677"
+       y="697.86102"
+       inkscape:label="entrancePath" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="floor">
+    <rect
+       style="fill:#c8a166;fill-opacity:1;stroke:#000000;stroke-width:2.33197"
+       id="rect4477"
+       width="855"
+       height="628"
+       x="87"
+       y="67"
+       inkscape:label="floorPath" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="counter">
+    <rect
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.92932"
+       id="rect13912"
+       width="285.40265"
+       height="70.402641"
+       x="369.79868"
+       y="247.79868"
+       inkscape:label="counterPath" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="shelves">
+    <rect
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:2.33197"
+       id="rect14040"
+       width="249"
+       height="93"
+       x="87"
+       y="67"
+       inkscape:label="shelfLeftPath" />
+    <rect
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:2.33197"
+       id="rect14042"
+       width="249"
+       height="93"
+       x="693"
+       y="67"
+       inkscape:label="shelfRightPath" />
+  </g>
+  <g
+     id="layer3"
+     inkscape:label="shopkeeper">
+    <ellipse
+       style="fill:#916f6f;fill-opacity:1;stroke:#000000;stroke-width:3.13452"
+       id="path14168"
+       cx="503"
+       cy="206.5"
+       rx="42.598728"
+       ry="37.40815"
+       inkscape:label="shopkeeperPath" />
+  </g>
+</svg>
