@@ -1,14 +1,27 @@
 //Load event listeners for keystrokes
-function loadKeys() {
-    var player=document.getElementById('player');
+function loadKeys(player) {
     document.addEventListener("keydown",(event) => {
         console.log(event.code);
         switch(event.code) {
             case 'KeyW':
                 console.log(player.style.top);
-                player.style.top=parseInt(player.style.top.match('[-+][0-9]+')[0])-10+'px';
+                player.style.top=parseInt(player.style.top.match('[-+]?[0-9]+')[0])-10+'px';
                 console.log(player.style.top);
-                //void player.offsetWidth; //This triggers a DOM reflow to update the position
+                break;
+            case 'KeyS':
+                console.log(player.style.top);
+                player.style.top=parseInt(player.style.top.match('[-+]?[0-9]+')[0])+10+'px';
+                console.log(player.style.top);
+                break;
+            case 'KeyA':
+                console.log(player.style.left);
+                player.style.left=parseInt(player.style.left.match('[-+]?[0-9]+')[0])-10+'px';
+                console.log(player.style.left);
+                break;
+            case 'KeyD':
+                console.log(player.style.left);
+                player.style.left=parseInt(player.style.left.match('[-+]?[0-9]+')[0])+10+'px';
+                console.log(player.style.left);
                 break;
         }
     });
@@ -37,8 +50,11 @@ function shopDialog(message) {
 }
 
 //START HERE!!!
-function init() {
+function init(player) {
+    player.style.top="-200";
+    player.style.left="450";
     loadStock();
-    loadKeys();
+    loadKeys(player);
 }
-init();
+var player=document.getElementById('player');;
+init(player);
