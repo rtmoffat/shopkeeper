@@ -16,7 +16,7 @@ function loadKeys() {
 function loadStock() {
     let stock;
     console.log("loading stock");
-    fetch('../data/stock.json')
+    fetch('./data/stock.json')
         .then(response => response.json())
         .then(data => console.log(data))
         .catch(error => console.log(error));
