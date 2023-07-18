@@ -5,29 +5,29 @@ function loadKeys(player) {
         switch(event.code) {
             case 'KeyW':
                 console.log(player.style.top);
-                player.style.top=parseInt(player.style.top.match('[-+]?[0-9]+')[0])-10+'px';
+                player.style.top=parseInt(player.style.top.match('[-+]?[0-9]+')[0])-10+'%';
                 console.log(player.style.top);
                 //check if player is next to counter -450x330 - -450x610
                 var left=parseInt(player.style.left.match('[-+]?[0-9]+')[0]);
                 var top=parseInt(player.style.top.match('[-+]?[0-9]+')[0]);
-                if (top=-450 && (left>330 && left<=610)) {
+                if (top==50 && (left>45 && left<=55)) {
                     console.log(top+'|'+left);
                     shop();
                 }
                 break;
             case 'KeyS':
                 console.log(player.style.top);
-                player.style.top=parseInt(player.style.top.match('[-+]?[0-9]+')[0])+10+'px';
+                player.style.top=parseInt(player.style.top.match('[-+]?[0-9]+')[0])+10+'%';
                 console.log(player.style.top);
                 break;
             case 'KeyA':
                 console.log(player.style.left);
-                player.style.left=parseInt(player.style.left.match('[-+]?[0-9]+')[0])-10+'px';
+                player.style.left=parseInt(player.style.left.match('[-+]?[0-9]+')[0])-10+'%';
                 console.log(player.style.left);
                 break;
             case 'KeyD':
                 console.log(player.style.left);
-                player.style.left=parseInt(player.style.left.match('[-+]?[0-9]+')[0])+10+'px';
+                player.style.left=parseInt(player.style.left.match('[-+]?[0-9]+')[0])+10+'%';
                 console.log(player.style.left);
                 break;
             case "Enter":
@@ -54,7 +54,10 @@ function loadStock() {
 function showItems(stock) {
     console.log("Showing items");
     var shopItemsDiv=document.getElementById("shopItems");
-    shopItemsDiv.innerHTML="<div>1</div><div>2</div><div>3</div>"
+    shopItemsDiv.innerHTML=`"<div class='shopItem'>1</div><div class='shopItem'>2</div><div class='shopItem'>3</div>
+    <div class='shopItem'>1</div><div class='shopItem'>2</div><div class='shopItem'>3</div>
+    <div class='shopItem'>1</div><div class='shopItem'>2</div><div class='shopItem'>3</div>
+    <div class='shopItem'>1</div><div class='shopItem'>2</div><div class='shopItem'>3</div>"`
     shopItemsDiv.style.display="flex";
 
 }
@@ -81,8 +84,8 @@ function shopDialog(message) {
 //
 //START HERE!!!
 function init(player) {
-    player.style.top="-200";
-    player.style.left="450";
+    player.style.top="90%";
+    player.style.left="50%";
     loadStock();
     loadKeys(player);
 }
