@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "get_dialog",
+  "name": "helper_functions",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

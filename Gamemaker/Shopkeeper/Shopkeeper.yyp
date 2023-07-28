@@ -38,7 +38,7 @@
     {"id":{"name":"dkialog_box_spr","path":"sprites/dkialog_box_spr/dkialog_box_spr.yy",},},
     {"id":{"name":"Main_TS_Spr","path":"sprites/Main_TS_Spr/Main_TS_Spr.yy",},},
     {"id":{"name":"dialog_box","path":"objects/dialog_box/dialog_box.yy",},},
-    {"id":{"name":"get_dialog","path":"scripts/get_dialog/get_dialog.yy",},},
+    {"id":{"name":"helper_functions","path":"scripts/helper_functions/helper_functions.yy",},},
     {"id":{"name":"shop","path":"rooms/shop/shop.yy",},},
     {"id":{"name":"Player_obj","path":"objects/Player_obj/Player_obj.yy",},},
     {"id":{"name":"Main_TS","path":"tilesets/Main_TS/Main_TS.yy",},},
